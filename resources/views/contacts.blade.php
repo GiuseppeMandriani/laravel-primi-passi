@@ -93,12 +93,12 @@
             <div class="content">
                 <div class="title m-b-md">
                     <h1>Primi Passi Laravel</h1>
-                    <h3>Homepage</h3>
+                    <h3>Contacts</h3>
                 </div>
 
                 <div class="links">
+                    <a href="{{ route('home')}}">Torna alla Home</a>
                     <a href="{{ route('about') }}">About us</a>
-                    <a href="{{ route('contacts') }}">Contacts</a>
                 </div>
             </div>
         </div>

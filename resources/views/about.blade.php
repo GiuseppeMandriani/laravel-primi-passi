@@ -97,9 +97,8 @@
                 </div>
 
                 <div class="links">
-                    <a href="/">Torna alla Home</a>
-                    <a href="">Page 2</a>
-                    <a href="">Page 3</a>
+                    <a href="{{ route('home')}}">Torna alla Home</a>
+                    <a href="{{ route('contacts') }}">Contacts</a>
                 </div>
             </div>
         </div>

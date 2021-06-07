@@ -18,7 +18,8 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('home');
-});
+})->name('home');
+
 
 
 // ABOUT EXAMPLE
@@ -26,4 +27,12 @@ Route::get('/', function () {
 Route::get('/about', function () {
     return view('about');
     
-});
+})->name('about');
+
+
+// ABOUT EXAMPLE
+
+Route::get('/contacts', function () {
+    return view('contacts');
+    
+})->name('contacts');
